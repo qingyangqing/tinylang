@@ -38,6 +38,6 @@ include_directories(BEFORE ${CMAKE_CURRENT_BINARY_DIR}/include
                            ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 # further directories with CMakeLists.txt
-add_subdirectories(lib)
-add_subdirectories(tools)
+add_subdirectory(lib)
+add_subdirectory(tools)
 
