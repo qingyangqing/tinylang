@@ -1,0 +1,3 @@
+// The @ symbols denote that this is a CMake variable
+#define TINYLANG_VERSION_STRING "@TINYLANG_VERSION_STRING@"
+
