@@ -27,7 +27,7 @@ if(CMAKE_SOURCE_DIR STREQUAL CMAKE_BINARY_DIR AND NOT MSVC_IDE)
     message(FATAL_ERROR "In-source builds are NOT allowed.")
 endif()
 
-set(TINYLANG_VERSION "0.1")
+set(TINYLANG_VERSION_STRING "0.1")
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/include/tinylang/Basic/Version.inc.in
                ${CMAKE_CURRENT_BINARY_DIR}/include/tinylang/Basic/Version.inc)
 
